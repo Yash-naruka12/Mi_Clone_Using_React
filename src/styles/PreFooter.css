@@ -1,0 +1,105 @@
+.mainDiv {
+  background-color: rgba(128, 128, 128, 0.34);
+}
+
+.preFooter {
+  padding: 1vmax;
+  background-color: #fff;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.preFooter > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(66, 66, 66, 0.829);
+  cursor: pointer;
+}
+
+.preFooter > div:hover svg {
+  fill: rgb(34, 34, 34);
+}
+.preFooter > div:hover p {
+  fill: rgb(19, 19, 18);
+}
+.preFooter span {
+  text-align: left;
+}
+
+.preFooter svg {
+  transform: scale(2) translateY(-0.2vmax);
+  fill: rgba(37, 37, 37, 0.444);
+  margin: 2vmax;
+}
+
+/* prefooter2  */
+
+.preFooter2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 150px;
+}
+
+.preFooter2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preFooter2 > div > p {
+  color: rgba(0, 0, 0, 0.842);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2vmax;
+  margin: 0;
+}
+
+.preFooter2 > div > span {
+  color: rgba(51, 51, 61, 0.842);
+  font-size: 1vmax;
+}
+
+.userInput {
+  position: relative;
+}
+
+.userInput button {
+  position: absolute;
+  right: 25px;
+  top: 48px;
+  background-color: transparent;
+  border: none;
+}
+
+.preFooter2 > div > input {
+  outline: none;
+  padding: 0.5vmax 1vmax;
+  background-color: rgb(255, 255, 255);
+  font-size: 1vmax;
+  width: 21.4vmax;
+  border: 1px solid black;
+}
+
+.preFooter2 > div:nth-child(2) > span {
+  width: 22vmax;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.preFooter2 > .lastChild {
+  display: inline-block;
+  margin: auto;
+}
+
+.preFooter2 > .lastChild a {
+  color: rgba(0, 0, 0, 0.751);
+  margin-right: 15px;
+  font-size: 1.5rem;
+  transition: all 0.2s linear;
+}
+
+.preFooter2 > .lastChild a:hover {
+  color: black;
+}

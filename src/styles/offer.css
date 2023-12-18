@@ -1,0 +1,10 @@
+.offerSection img:hover {
+  box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+  cursor: pointer;
+  /* transform: scale(1.1); */
+  transition: all 0.3s linear;
+}
+
+.offerSection img {
+  margin-right: 10px;
+}
